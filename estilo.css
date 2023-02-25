@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Baloo Bhaina 2", cursive;
+    font-size: 16px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(136.31deg,#0a0f07 14.16%,#1f102b 53.39%,#23193e 82.63%);
+}
+
+#container{
+    padding: 40px 60px 40px 60px;
+}
+
+nav{
+    display: flex;
+    color: #E0DAED;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+main{
+    color: #E9E1FD;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+form{
+    width: 50%;
+}
+
+main h1{
+    color: #9f7fdbcc;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 3rem;
+    text-align: center;
+}
+
+input{
+    padding: 1rem;
+    border: none;
+    color: #E9E1FD;
+    background: #9f7fdb;
+    border-radius: 10px;
+}
+
+.input-name{
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.input-email{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    margin-left: 20%;
+}
+
+form button{
+    border: none;
+    width: 240px;
+    padding: 1rem;
+    border-radius: 10px;
+    opacity: 0.9;
+    transition: 1s all;
+    margin-left: 15%;
+}
+
+form button:hover{
+    cursor: pointer;
+    opacity: 1;
+    transition: 1s all;
+}
+
+.btn-lua{
+    background: #7834f3;
+    color: #E9E1FD;
+}
+
+.btn-info{
+    background: #9f7fdb;
+    color: #E9E1FD;
+}
+
+input::placeholder{
+    color: #E9E1FD;
+}
+
+@media only screen and (max-width: 1000px) {
+    main{
+    flex-direction: column !important;
+    }
+
+    form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    #container {
+    background: linear-gradient(136.31deg,#0a0f07 14.16%,#1f102b 53.39%, #23193e 82.63%);
+    }
+}
+  
